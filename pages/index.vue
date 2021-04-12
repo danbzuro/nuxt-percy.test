@@ -15,7 +15,7 @@
     }
     ```
   -->
-  <div class="h-screen flex overflow-hidden bg-white">
+  <div class="h-screen flex overflow-hidden">
     <!-- Off-canvas menu for mobile, show/hide based on off-canvas menu state. -->
     <div class="fixed inset-0 flex z-40 lg:hidden" role="dialog" aria-modal="true">
       <!--
@@ -364,7 +364,7 @@
                     d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
                   />
                 </svg>
-                Home
+                Home qwqw
               </a>
 
               <a
@@ -510,20 +510,7 @@
             <!-- Profile dropdown -->
             <div class="ml-3 relative">
               <div>
-                <button
-                  id="user-menu"
-                  type="button"
-                  class="max-w-xs bg-white flex items-center text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500"
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                >
-                  <span class="sr-only">Open user menu</span>
-                  <img
-                    class="h-8 w-8 rounded-full"
-                    src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixqx=tgwCbFIBqv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    alt=""
-                  >
-                </button>
+
               </div>
 
               <!--
@@ -600,7 +587,7 @@
             </button>
             <button
               type="button"
-              class="order-0 inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 sm:order-1 sm:ml-3"
+              class="order-0 inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 sm:order-1 sm:ml-3"
             >
               Create
             </button>
