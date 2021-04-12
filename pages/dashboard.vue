@@ -1,20 +1,20 @@
 <template>
   <!--
-    This example requires Tailwind CSS v2.0+
+  This example requires Tailwind CSS v2.0+
 
-    This example requires some changes to your config:
+  This example requires some changes to your config:
 
-    ```
-    // tailwind.config.js
-    module.exports = {
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
       // ...
-      plugins: [
-        // ...
-        require('@tailwindcss/forms'),
-      ]
-    }
-    ```
-  -->
+      require('@tailwindcss/forms'),
+    ]
+  }
+  ```
+-->
   <div class="h-screen flex overflow-hidden bg-white">
     <!-- Off-canvas menu for mobile, show/hide based on off-canvas menu state. -->
     <div class="fixed inset-0 flex z-40 lg:hidden" role="dialog" aria-modal="true">
@@ -947,6 +947,11 @@
 </template>
 
 <script>
-
-export default {}
+export default {
+  name: 'Dashboard'
+}
 </script>
+
+<style scoped>
+
+</style>
